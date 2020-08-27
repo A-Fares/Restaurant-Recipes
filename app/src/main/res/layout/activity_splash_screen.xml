@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFCF2"
+    android:layout_marginTop="-100dp">
+
+
+    <ImageView
+        android:id="@+id/food_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/food"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:id="@+id/app_name_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/food_logo"
+        android:fontFamily="sans-serif-medium"
+        android:text="Resturant Recipe"
+        android:textColor="#F52C56"
+        android:textSize="50sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+
+</RelativeLayout>

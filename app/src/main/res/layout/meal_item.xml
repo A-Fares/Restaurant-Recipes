@@ -24,7 +24,7 @@
             android:background="@drawable/round_img"
             android:contentDescription="@string/recipe_title"
             android:scaleType="fitXY"
-            android:src="@drawable/ic_launcher_background" />
+            android:src="@drawable/empty_img" />
 
 
         <TextView
@@ -37,6 +37,8 @@
             android:text="@string/recipe_title"
             android:textColor="#000"
             android:textSize="14sp"
+            android:ellipsize="end"
+            android:maxLines="1"
             android:textStyle="bold" />
 
         <TextView

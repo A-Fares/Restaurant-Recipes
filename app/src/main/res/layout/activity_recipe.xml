@@ -14,7 +14,7 @@
         android:background="@drawable/round_img"
         android:contentDescription="@string/recipe_title"
         android:scaleType="fitXY"
-        android:src="@drawable/ic_launcher_background" />
+        android:src="@drawable/empty_img" />
 
     <TextView
         android:id="@+id/recipe_titleTV"
@@ -55,7 +55,7 @@
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
             android:numStars="5"
-            android:rating="1" />
+            android:rating="0" />
     </RelativeLayout>
 
     <FrameLayout
